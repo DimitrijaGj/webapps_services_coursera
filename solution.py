@@ -11,7 +11,7 @@ for file in feedback_files:
     with open (text_dir + file) as fb:
         x=1
         for line in fb: #we go trough file
-            review = line.strip() # we rad every line in the file
+            review = line.strip() # we read every line in the file
             if not keys[key_count] in fb_dict: # we add keys value pair so if is key not in dict
                 fb_dict[keys[key_count]]=review 
                 '''# then we take the key from the list and assign the value from .strip method 
